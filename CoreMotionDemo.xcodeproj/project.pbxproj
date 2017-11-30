@@ -13,6 +13,10 @@
 		1265CF641FCFA86F0065151E /* CoreMotionDemo.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 1265CF621FCFA86F0065151E /* CoreMotionDemo.xcdatamodeld */; };
 		1265CF661FCFA86F0065151E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1265CF651FCFA86F0065151E /* Assets.xcassets */; };
 		1265CF691FCFA86F0065151E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1265CF671FCFA86F0065151E /* LaunchScreen.storyboard */; };
+		1265CF741FCFE21D0065151E /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1265CF721FCFE21D0065151E /* FirstViewController.swift */; };
+		1265CF751FCFE21D0065151E /* FirstViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1265CF731FCFE21D0065151E /* FirstViewController.xib */; };
+		1265CF781FCFF22C0065151E /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1265CF761FCFF22C0065151E /* SecondViewController.swift */; };
+		1265CF791FCFF22C0065151E /* SecondViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1265CF771FCFF22C0065151E /* SecondViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +28,11 @@
 		1265CF651FCFA86F0065151E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1265CF681FCFA86F0065151E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1265CF6A1FCFA86F0065151E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1265CF711FCFE1BD0065151E /* CoreMotion.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMotion.framework; path = System/Library/Frameworks/CoreMotion.framework; sourceTree = SDKROOT; };
+		1265CF721FCFE21D0065151E /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
+		1265CF731FCFE21D0065151E /* FirstViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FirstViewController.xib; sourceTree = "<group>"; };
+		1265CF761FCFF22C0065151E /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
+		1265CF771FCFF22C0065151E /* SecondViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SecondViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -42,6 +51,7 @@
 			children = (
 				1265CF5A1FCFA86F0065151E /* CoreMotionDemo */,
 				1265CF591FCFA86F0065151E /* Products */,
+				1265CF701FCFE1BD0065151E /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -63,8 +73,20 @@
 				1265CF671FCFA86F0065151E /* LaunchScreen.storyboard */,
 				1265CF6A1FCFA86F0065151E /* Info.plist */,
 				1265CF621FCFA86F0065151E /* CoreMotionDemo.xcdatamodeld */,
+				1265CF721FCFE21D0065151E /* FirstViewController.swift */,
+				1265CF731FCFE21D0065151E /* FirstViewController.xib */,
+				1265CF761FCFF22C0065151E /* SecondViewController.swift */,
+				1265CF771FCFF22C0065151E /* SecondViewController.xib */,
 			);
 			path = CoreMotionDemo;
+			sourceTree = "<group>";
+		};
+		1265CF701FCFE1BD0065151E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1265CF711FCFE1BD0065151E /* CoreMotion.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -129,6 +151,8 @@
 				1265CF691FCFA86F0065151E /* LaunchScreen.storyboard in Resources */,
 				1265CF661FCFA86F0065151E /* Assets.xcassets in Resources */,
 				1265CF611FCFA86F0065151E /* Main.storyboard in Resources */,
+				1265CF751FCFE21D0065151E /* FirstViewController.xib in Resources */,
+				1265CF791FCFF22C0065151E /* SecondViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -142,6 +166,8 @@
 				1265CF5E1FCFA86F0065151E /* ViewController.swift in Sources */,
 				1265CF641FCFA86F0065151E /* CoreMotionDemo.xcdatamodeld in Sources */,
 				1265CF5C1FCFA86F0065151E /* AppDelegate.swift in Sources */,
+				1265CF781FCFF22C0065151E /* SecondViewController.swift in Sources */,
+				1265CF741FCFE21D0065151E /* FirstViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
